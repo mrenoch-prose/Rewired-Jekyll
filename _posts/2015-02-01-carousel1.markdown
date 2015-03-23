@@ -1,0 +1,9 @@
+---
+layout: post
+title: Week 8
+subtitile: SHOW the BLEND
+desc: This is a sample post that is added under the "desc" part of the YAML.
+img: table_show.png
+desc: A faculty showcase of the results from rewirED.
+categories: carousel
+---
