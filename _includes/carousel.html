@@ -1,7 +1,7 @@
 <!-- Carousel -->
 	<div class="carousel">
 	    <div class="reel">
-	    {% for post in site.categories.2buttons %}              
+	    {% for post in site.categories.buttons %}              
         	<article>
 			<div class="image">
             	<img src="images/{{ post.img }}" alt="WEEK 8:<br />SHOW the BLEND" /></div>
@@ -11,21 +11,21 @@
 					<p>{{ post.desc }}
 				<br /><br />
 				
-				{{ post.data }}
-		    </article>
-		{% endfor %}
-                  
-        {% for post in site.categories.1buttons %}       
-            <article>
-				<div class="image">
-                	<img src="images/{{ post.img }}"" alt="WEEK 7:<br />BUILD the COMMUNITY" /></div>
- 		         	<header>
-						<h3>{{ post.title }}:<br />{{ post.subtitle }}</h3>
-					</header>
-					<p>{{ post.desc }}
-					<br /><br />
-					{{ post.data }}
-		     </article>
+				<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+        <head>
+        	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        	<title>{{ site.name }}</title>
+        </head>
+        <body>
+        <div id="buttons">
+        	{{ post.data }}
+        </div>
+        </body>
+        </html>
+        	</article>
+
         {% endfor %}
+		   
 		</div>
 	</div>

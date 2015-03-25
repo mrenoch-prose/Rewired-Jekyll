@@ -5,19 +5,8 @@ subtitle: SHOW the BLEND
 desc: This is a sample post that is added under the "desc" part of the YAML.
 img: table_show.png
 desc: A faculty showcase of the results from rewirED.
-categories: 2buttons
-button1: 
-data: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-        <head>
-        	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        	<title>{{ site.name }}</title>
-        </head>
-        <body>
-        <div id="buttons">
-        	<a class="button" href="https://calendar.columbia.edu/sundial/webapi/register.php?eventID=74491">Register - Morningside<br />December 5, 2014 from 1:00pm-3:00 pm</a><br><br>
-        	<a class="button" href="https://calendar.columbia.edu/sundial/webapi/register.php?eventID=74492">Register - CUMC<br />December 9, 2014 from 12:00pm-1:30 pm</a></p>
-        </div>
-        </body>
-        </html>
+categories: buttons
+data: 
+        <a class="button" href="https://calendar.columbia.edu/sundial/webapi/register.php?eventID=74491">Register - Morningside<br />December 5, 2014 from 1:00pm-3:00 pm</a><br><br>
+        <a class="button" href="https://calendar.columbia.edu/sundial/webapi/register.php?eventID=74492">Register - CUMC<br />December 9, 2014 from 12:00pm-1:30 pm</a></p>
 ---

@@ -6,13 +6,26 @@
 						<h2>LOCATIONS</h2>
 					</header>
 					<div class="row">
-						
-						{% for post in site.categories.locations %}
+
+						{% for post in site.categories.locations | sort_by: "date" %}
 
 						  <article class="4u special">
 						  	<header>
 						    <h3>{{ post.title }}<br>{{ post.subtitle }}</h3>
-						    {{ post.data }}
+
+						    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+					        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+					        <head>
+					                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+					                <title>{{ site.name }}</title>
+					        </head>
+					        <body>
+					        <div id="news">
+					               {{ post.data }}
+					        </div>
+					        </body>
+					        </html>
+
 						    </header>
 						 </article>
 
