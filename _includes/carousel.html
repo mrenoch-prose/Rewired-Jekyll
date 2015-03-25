@@ -1,169 +1,31 @@
 <!-- Carousel -->
 	<div class="carousel">
 	    <div class="reel">
-              
-
-    
-                  
-                      <article>
+	    {% for post in site.categories.2buttons %}              
+        	<article>
 			<div class="image">
-                            <img src='images/table_show.png' alt="WEEK 8:<br />SHOW the BLEND" /></div>
+            	<img src="images/{{ post.img }}" alt="WEEK 8:<br />SHOW the BLEND" /></div>
  		         <header>
-				<h3>WEEK 8:<br />SHOW the BLEND</h3>
-			</header>
-			<p>A faculty showcase of the results from rewirED.
-
-
-<br /><br />
-
-<a class="button" href="https://calendar.columbia.edu/sundial/webapi/register.php?eventID=74491">Register - Morningside<br />December 5, 2014 from 1:00pm-3:00 pm</a>
-
-<br /><br />
-
-<a class="button" href="https://calendar.columbia.edu/sundial/webapi/register.php?eventID=74492">Register - CUMC<br />December 9, 2014 from 12:00pm-1:30 pm</a></p>
+					<h3>{{ post.title }}:<br />{{ post.subtitle }} </h3>
+				</header>
+					<p>{{ post.desc }}
+				<br /><br />
+				
+				{{ post.data }}
+		    </article>
+		{% endfor %}
+                  
+        {% for post in site.categories.1buttons %}       
+            <article>
+				<div class="image">
+                	<img src="images/{{ post.img }}"" alt="WEEK 7:<br />BUILD the COMMUNITY" /></div>
+ 		         	<header>
+						<h3>{{ post.title }}:<br />{{ post.subtitle }}</h3>
+					</header>
+					<p>{{ post.desc }}
+					<br /><br />
+					{{ post.data }}
 		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_build.png' alt="WEEK 7:<br />BUILD the COMMUNITY" /></div>
- 		         <header>
-				<h3>WEEK 7:<br />BUILD the COMMUNITY</h3>
-			</header>
-			<p>Turn your classroom into a community that shares.
-
-
-<br /><br />
-
-<div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_curate.png' alt="WEEK 6:<br />CURATE the CONTENT" /></div>
- 		         <header>
-				<h3>WEEK 6:<br />CURATE the CONTENT</h3>
-			</header>
-			<p>Repurpose digital content into your curriculum.
-
-
-<br /><br />
-
-<!--
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74488">Register - CUMC</a>
-
-<br /><br />
-
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74487">Register - Morningside</a>
---><div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_drive.png' alt="WEEK 5:<br />DRIVE the DISCUSSION" /></div>
- 		         <header>
-				<h3>WEEK 5:<br />DRIVE the DISCUSSION</h3>
-			</header>
-			<p>Stimulate meaningful discussions in the classroom and online.
-
-
-<br /><br />
-
-<!--<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74486">Register - CUMC</a>
-
-<br /><br />
-
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74485">Register - Morningside</a>
--->
-<div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_present.png' alt="WEEK 4:<br />PRESENT the INFORMATION" /></div>
- 		         <header>
-				<h3>WEEK 4:<br />PRESENT the INFORMATION</h3>
-			</header>
-			<p>Design and deliver engaging presentations.
-
-
-<br /><br />
-
-<!--<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74483">Register - CUMC</a>
-
-<br /><br />
-
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74484">Register - Morningside</a>
--->
-
-<div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_produce.png' alt="WEEK 3:<br />PRODUCE the MEDIA" /></div>
- 		         <header>
-				<h3>WEEK 3:<br />PRODUCE the MEDIA</h3>
-			</header>
-			<p>Create sharp video content with CCNMTL resources.
-
-
-<br /><br />
-
-<!--<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74481">Register - CUMC</a>
-
-<br /><br />
-
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74482">Register - Morningside</button></a>
--->
-<div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_activate.png' alt="WEEK 2:<br />ACTIVATE the CLASSROOM" /></div>
- 		         <header>
-				<h3>WEEK 2:<br />ACTIVATE the CLASSROOM</h3>
-			</header>
-			<p>Explore audience response systems and evaluation tools.
-
-
-<br /><br />
-
-<!--<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74479">Register - CUMC</a>
-
-<br /><br />
-
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74480">Register - Morningside</a>
--->
-<div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
-                  
-                      <article>
-			<div class="image">
-                            <img src='images/table_blend.png' alt="WEEK 1:<br />BLEND the LEARNING" /></div>
- 		         <header>
-				<h3>WEEK 1:<br />BLEND the LEARNING</h3>
-			</header>
-			<p>Learn the what, how, where, and why of blended learning.
-
-
-<br /><br />
-
-<!--<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74474">Register - CUMC</a>
-
-<br /><br />
-
-<a class="button" href="http://ccnmtl.columbia.edu/events/eventDetail.html?eventFilter=74475">Register - Morningside</a>
--->
-<div class="button" href="#">Session Closed</div></p>
-		     </article>
-                  
+        {% endfor %}
 		</div>
 	</div>
