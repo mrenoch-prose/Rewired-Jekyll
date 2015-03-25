@@ -2,9 +2,8 @@
 layout: default
 title: WEEK 7
 subtitle: BUILD the COMMUNITY
-desc: This is a sample post that is added under the "desc" part of the YAML.
-img: table_build.png
 desc: Turn your classroom into a community that shares.
+img: table_build.png
 categories: 1buttons
 data: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
