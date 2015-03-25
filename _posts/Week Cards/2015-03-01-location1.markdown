@@ -1,0 +1,18 @@
+---
+layout: default
+title: Columbia University
+subtitle: Morningside Campus
+categories: locations
+data: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+        <head>
+        	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        	<title>{{ site.name }}</title>
+        </head>
+        <body>
+        <div id="news">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3019.981414501445!2d-73.9633875!3d40.8064022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c26f2f91d%3A0xd69ca52cc403a516!2s535+W+114th+St%2C+Columbia+University%2C+New+York%2C+NY+10027!5e0!3m2!1sen!2sus!4v1409240189532" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+        </div>
+        </body>
+        </html>
+---
