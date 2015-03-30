@@ -1,8 +1,8 @@
-# Helios-Jekyll
+# Rewired-Jekyll
 
-This is a Jekyll version of the theme Helios: http://html5up.net/helios
+This is a Jekyll version of the website reWired by CCNMTL: http://ccnmtl.columbia.edu/events/websites/rewired_f14/
 
-You can check the build here: http://zovfreullia.github.io/Helios-Jekyll/
+You can check the Jekyll build here: http://columbia.edu/~ffv2102/Rewired
 
 Unlike the original theme, users can change the content of the "Post" and "Article" directly under the _post directory. You can add as many posts you want, and you can even change the image by inputting a different file picture. All you have to do is create a new post with the proper file heading: ```YEAR-MM-DD-FILENAME.markdown``` and include this on the header.
 
